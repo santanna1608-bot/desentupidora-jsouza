@@ -330,8 +330,9 @@ a {
 .mobile-drawer {
     position: fixed;
     top: 0;
-    right: -320px;
-    width: 300px;
+    right: -100%;
+    width: 85%;
+    max-width: 320px;
     height: 100%;
     background-color: var(--bg-dark-deep);
     border-left: 1px solid var(--bg-dark-border);
@@ -1975,8 +1976,30 @@ a {
         display: flex;
     }
 
+    .hero-title {
+        font-size: clamp(1.8rem, 6vw, 2.5rem);
+    }
+
+    .hero-stats-row {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 24px;
+    }
+
     .stats-grid {
         grid-template-columns: 1fr;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .service-card {
+        padding: 28px 20px;
+    }
+
+    .media-frame-rect {
+        height: 320px;
     }
 
     .process-timeline {
@@ -1998,6 +2021,10 @@ a {
     
     .callout-content {
         padding: 40px 24px;
+    }
+
+    .final-cta-wrapper {
+        padding: 48px 24px;
     }
 
     .interactive-widget {
@@ -2032,6 +2059,10 @@ a {
         flex-direction: column;
         gap: 16px;
         align-items: center;
+    }
+
+    .media-frame-rect {
+        height: 240px;
     }
 
     .floating-badge {
