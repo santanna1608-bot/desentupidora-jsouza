@@ -1,5 +1,5 @@
 /**
- * JavaScript Principal - Desentupidora JSousa
+ * JavaScript Principal - Desentupidora JSouza
  * Responsável por animações, interatividade do widget de diagnóstico e menu mobile.
  */
 
