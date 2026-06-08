@@ -1986,6 +1986,22 @@ a {
         gap: 24px;
     }
 
+    .floating-badge {
+        padding: 8px 12px;
+        max-width: 190px;
+        border-radius: 12px;
+    }
+
+    .badge-top-right {
+        top: 20px;
+        right: 15px;
+    }
+
+    .badge-bottom-left {
+        bottom: 20px;
+        left: 15px;
+    }
+
     .stats-grid {
         grid-template-columns: 1fr;
     }
@@ -2066,7 +2082,20 @@ a {
     }
 
     .floating-badge {
-        display: none; /* remove floating badges on very small screens for clean visual */
+        padding: 6px 10px;
+        max-width: 150px;
+    }
+
+    .badge-title {
+        font-size: 0.75rem;
+    }
+
+    .badge-desc {
+        font-size: 0.65rem;
+    }
+
+    .badge-icon {
+        font-size: 1.1rem;
     }
 
     .media-frame {
